@@ -18,12 +18,20 @@ ul {
 
 header {
     display: flex;
-    padding: 0px 10vw;
+    padding: 10px 10vw;
     background-color: #1F2937;
 }
 
-.header-options a {
-    color: #e5e7eb;
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 7px;
+    padding: 5px 20px;
+}
+
+.header-options a,
+.title-info {
+    color: lightgrey;
     font-size: 18px;
 }
 
@@ -35,6 +43,38 @@ header {
 
 .title-container {
     display: flex;
+    align-items: stretch;
+    background-color: #1F2937;
+    padding: 7vw 10vw;
+    gap: 45px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    flex-direction: column;
+}
+
+.title-img {
+    color: lightgrey;
+    flex: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: grey;
+}
+
+.title-header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.header-button {
+    border-width: 0px;
+    width: fit-content;
+    margin-top: 10px;
 }

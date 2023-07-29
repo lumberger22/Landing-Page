@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+header {
+    display: flex;
+    padding: 0px 10vw;
+    background-color: #1F2937;
+}
+
+.header-options a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

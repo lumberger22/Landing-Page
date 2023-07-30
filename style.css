@@ -122,3 +122,33 @@ button {
 .text {
     color: #1F2937;
 }
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px;
+}
+
+.quote-content {
+    flex-basis: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    flex: 1;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    flex: 1;
+    text-align: right;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 20px;
+}

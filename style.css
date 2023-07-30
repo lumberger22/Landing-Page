@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -28,6 +30,17 @@ button {
     color: #f9faf8;
     border-radius: 7px;
     padding: 5px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 15px 0px;
+    color: lightgrey;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-options a,
@@ -151,4 +164,33 @@ button {
     color: #1F2937;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-main {
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    padding: 50px 100px;
+    margin: 75px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.main-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-button {
+    border-color: #f9faf8;
+    flex: 1;
+    height: fit-content;
+    align-self: center;
 }
